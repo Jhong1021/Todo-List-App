@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+.todo-list-background {
+    background-image: url('https://images.inc.com/uploaded_files/image/1920x1080/getty_638884198_366705.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nerko One', cursive;
+}
+
+.form-container {
+    position: relative;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    .form-container {
+        width: 90%;
+        max-width: 90%;
+    }
+}
